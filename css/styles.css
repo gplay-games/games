@@ -232,11 +232,12 @@ color:#F89F9F;
 	float: right;
 }
 .header {
-	position: fixed;
+	position: sticky;
 	width: 100%; 
 	z-index: 50;
 	border-radius: 0;
 	top: 0px; 
+	background-color: black;
 }
 .addBg {
 	background: rgba(5, 5, 5, 0.94);
@@ -1294,7 +1295,7 @@ nav#filter li {
 #customers {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
-  width: 100%;
+   width: auto;
 }
 
 #customers td, #customers th {
